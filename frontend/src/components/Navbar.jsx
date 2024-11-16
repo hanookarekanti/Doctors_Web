@@ -36,6 +36,15 @@ const Navbar = () => {
           <li className='py-1'>CONTACT</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
+        {/* Add Admin Dashboard Link */}
+        <a
+          href="https://doctors-web-admin.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='py-1 hover:underline'
+        >
+          ADMIN DASHBOARD
+        </a>
       </ul>
 
       <div className='flex items-center gap-4 '>
